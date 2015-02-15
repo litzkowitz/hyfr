@@ -1,0 +1,10 @@
+body {
+    font-family: helvetica;
+    font-size: 12px;
+    margin: 15px;
+	background: url(deg2.jpg) no-repeat 0 0;
+}
+
+h1 {
+	font-size: 3rem;
+}
