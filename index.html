@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="reset" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js">
+    </script>
 </head>
 <body>
 
@@ -18,12 +19,24 @@
 </section>
 
 <section class="two" id="two">
-    <div class="header3-box">
-         <h2>NOW WE HERE</h2>
-    </div>
-</section>
+	<div class="text">
+		<h2>NOW WE HERE</h2>
 
-<button> Started
+	    <ul class="button">
+	  		<li> <a href="/started.html">started from the bottom</a> </li>
+	  		<li class="team">now my whole team's here</li>
+		</ul>
+		<script>
+		$(function() {
+			$('a').hover(function() {
+				$('a').removeClass('active');
+				$('a').addClass('active');
+   			 });
+		});
+		</script>
+
+	</div>
+</section>
 
 </body>
 </html>

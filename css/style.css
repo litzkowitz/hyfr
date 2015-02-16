@@ -27,16 +27,28 @@ nav {
 
 ul {
     list-style-type: none;
+    margin: 0 auto;
+    padding: 0px;
 }
 
 a {
     color: black;
-    font-size: 1em;
     text-decoration: none;
 }
 
-a:hover {
-    color: #4dc3ff;
+
+li {
+    list-style-type: none;
+    width: 200px;
+    border: 1px solid #bbb;
+    margin-bottom: 1em;
+    padding: 1em 1em;
+    transition: all 700ms ease;
+}
+
+.active a {
+    background: black;
+    color: white;
 }
 
 section {
