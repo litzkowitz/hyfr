@@ -4,6 +4,14 @@ html, body {
     padding: 0;
     height: 100%;
 }
+
+body {
+    line-height: 1.3;
+}
+
+* {
+    box-sizing: border-box;
+}
     
 body {
     font-family: Helvetica;
@@ -11,29 +19,25 @@ body {
     line-height: 1.3;
 }
 
-/*nav {
+nav {
     position: fixed;
     margin-top: 50px;
     z-index: 10;
 }
 
-{
-	display: block;
-	font-size: 2rem;
-	text-decoration: none;
-	color: rgba(255,255,255,.2);
-	transition: all 1s linear;
+ul {
+    list-style-type: none;
 }
 
 a {
-	letter-spacing: 1.5px;
-	margin-top: 17%;
-	margin-left: 5%;
+    color: black;
+    font-size: 1em;
+    text-decoration: none;
 }
 
 a:hover {
-	color: white; 
-}*/
+    color: #4dc3ff;
+}
 
 section {
     background-size: cover;
@@ -44,16 +48,55 @@ section {
     position: relative;
 }
 
+p {
+    margin: 0 0 1em 0;
+    padding-left: 10px;
+}
+
+.text {
+    min-width: 800px;
+    color: black;
+    position: absolute;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: normal;
+    color: white;
+    margin-top: 25%;
+    margin-left: 15%;
+}
+
 .one {
     background-image: url(/img/jimmy.jpg);
 }
 
-.one .text ul {
-	font-size: 2rem;
-	position: fixed;
-	color: white;
-	text-decoration: none;
-	letter-spacing: 1px;
-	margin-left: 10%;
-	margin-top: 15%;
+.one .text h3 {
+    color: white;
+    font-size: 2em;
+    letter-spacing: 1px;
+}
+
+
+h2 {
+    font-size: 2rem;
+    font-weight: normal;
+    margin-top: 10%;
+}
+
+
+.two {
+    background-image: url(/img/drake.jpg);
+}
+
+.header3-box {
+	width: 575px;
+    padding-top: 25px;
+    margin-left: 100px;
+}
+
+.two .text {
+	width: 325px;
+    color: #00070F;
+    margin-left: 100px;
 }
