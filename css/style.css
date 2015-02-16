@@ -47,8 +47,8 @@ a:hover {
 .button li {
     list-style-type: none;
     width: 300px;
-    padding: 1em;
-    margin-bottom: 1em;
+    padding: 0, 1em;
+    margin-bottom: 2em;
     transition: all 700ms ease;
 }
 
@@ -78,7 +78,7 @@ p {
     position: absolute;
 }
 
-h3 {
+h1 {
     font-size: 2rem;
     font-weight: normal;
     color: white;
@@ -90,7 +90,7 @@ h3 {
     background-image: url(/img/jimmy.jpg);
 }
 
-.one .text h3 {
+.one .text h1 {
     color: white;
     font-size: 2em;
     letter-spacing: 1px;
@@ -118,4 +118,56 @@ h2 {
 	width: 325px;
     color: #00070F;
     margin-left: 100px;
+}
+
+img {
+    : 100%;
+}
+
+.three {
+    background-image: url(/img/d3.jpg);
+}
+
+.col-sm-6 {
+    margin-top: 10%;
+    vertical-align: top;
+}
+
+.col-sm-6 p{
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #bbb;
+}
+
+h3 {
+    margin-left: 10%;
+}
+
+.col-sm-6 h3 {
+    color: white;
+    margin-right: 10%;
+    line-height: 1.3em;
+}
+
+.reroute {
+    width: 275px;
+    margin-top: 25%;
+    margin-left: 10%;
+}
+
+.reroute a{
+    color: black;
+}
+
+.reroute:hover a{
+    color: white;
+    border: 1px solid black;
+    padding: 1em;
+    text-decoration: none;
+    font-weight: normal;
+    letter-spacing: 1.5px;
+}
+
+.chg h3 {
+    color: #e7f6cd;
 }
