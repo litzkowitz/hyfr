@@ -23,15 +23,15 @@
 
 	    <ul class="button">
 	  		<li> <a href="/started.html">started from the bottom</a> </li>
-	  		<li class="team">now my whole team's here</li>
+	  		<li> <a href="/team.html">now my whole team's here</a> </li>
 		</ul>
 		<script>
-			$(function() {
-				$('button').hover(function() {
-					$('li').removeClass('active a');
-					$('li').addClass('active a');
-	   			 });
-			});
+		$(function() {
+			$('a').hover(function() {
+				$('li').removeClass('active');
+				$('this').addClass('active');
+   			 });
+		});
 		</script>
 
 	</div>
