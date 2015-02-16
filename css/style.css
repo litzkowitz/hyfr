@@ -45,15 +45,15 @@ section {
 }
 
 .one {
-    background-image: url(/img/jimmy.jpg);
+    background-image: url(/img/jimmy2.jpg);
 }
 
-.one .text a {
+.one .text ul {
 	font-size: 2rem;
 	position: fixed;
 	color: white;
 	text-decoration: none;
 	letter-spacing: 1px;
 	margin-left: 10%;
-	padding-top: 15%;
+	margin-top: 15%;
 }
