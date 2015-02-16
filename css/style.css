@@ -36,18 +36,17 @@ a {
     text-decoration: none;
 }
 
-
-li {
+.button li {
     list-style-type: none;
-    width: 200px;
-    border: 1px solid #bbb;
+    width: 300px;
+    padding: 1em;
     margin-bottom: 1em;
-    padding: 1em 1em;
     transition: all 700ms ease;
 }
 
 .active a {
     background: black;
+    padding: 1em;
     color: white;
 }
 
