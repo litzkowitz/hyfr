@@ -14,9 +14,9 @@
 
 <section class="three">
 	<div class="row">
-		<div class="col-sm-6"><h3>The discography of Canadian rapper Drake consists of 3 studio albums, 1 extended play, 4 mixtapes, 71 singles (including 47 as a featured artist), 7 promotional singles and 36 music videos</h3>
+		<div class="something col-sm-6"><h3>The discography of Canadian rapper Drake consists of 3 studio albums, 1 extended play, 4 mixtapes, 71 singles (including 47 as a featured artist), 7 promotional singles and 36 music videos</h3>
 		</div>
-		
+
 		<div class="col-sm-6"><p><strong> February 14, 2015 </strong><br>Drake releases <em>If You're Reading This It's Too Late</em>.</p>
 		<p>Drake has posted a link to a 17-song project titled If You're Reading This It's Too Late, including a song called "Jungle"-- the same title given to the short film he posted this morning. Collaborations on the release include Lil Wayne, Travi$ Scott and PARTYNEXTDOOR. Check out the new music now on iTunes.<p>
 		</div>
@@ -29,9 +29,8 @@
 
 <script>
 $(function() {
-    $('row').hover(function() {
-        $('.col-sm-6').removeClass('chg');
-        $('.col-sm-6').addClass('chg');
+    $('.something').hover(function() {
+        $(this).toggleClass('chg');
     });
 });
 </script>

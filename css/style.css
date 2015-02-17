@@ -12,7 +12,7 @@ body {
 * {
     box-sizing: border-box;
 }
-    
+
 body {
     font-family: Helvetica;
     font-size: 14px;
@@ -169,5 +169,5 @@ h3 {
 }
 
 .chg h3 {
-    color: #e7f6cd;
+    color: #ffff99;
 }
